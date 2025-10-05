@@ -65,5 +65,6 @@ public class Main {
                 arrayInt[i] += 1;
             }
         }
+        System.out.println(Arrays.toString(arrayInt));
     }
 }
