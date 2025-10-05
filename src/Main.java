@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
@@ -8,6 +10,10 @@ public class Main {
         int[] myArray = {12, 55, 31, 10, 0, 0, 0};
 
         // Задача 2
+        System.out.print(Arrays.toString(arrayInt) + ", ");
+        System.out.print(Arrays.toString(arrayDouble) + ", ");
+        System.out.print(Arrays.toString(myArray));
 
+        // Задача
     }
 }
